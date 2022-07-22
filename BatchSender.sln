@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BatchSender", "BatchSender\BatchSender.csproj", "{DF394CFC-4E4C-442A-9279-A4ED1A1F9F45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BatchSenderTests", "BatchSenderTests\BatchSenderTests.csproj", "{33CD8FA7-B0B6-4CCC-9BA0-68D75DAACD41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF394CFC-4E4C-442A-9279-A4ED1A1F9F45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF394CFC-4E4C-442A-9279-A4ED1A1F9F45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF394CFC-4E4C-442A-9279-A4ED1A1F9F45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF394CFC-4E4C-442A-9279-A4ED1A1F9F45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33CD8FA7-B0B6-4CCC-9BA0-68D75DAACD41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33CD8FA7-B0B6-4CCC-9BA0-68D75DAACD41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33CD8FA7-B0B6-4CCC-9BA0-68D75DAACD41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33CD8FA7-B0B6-4CCC-9BA0-68D75DAACD41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0FFF9487-23CE-410A-A012-F3D6AAA2A346}
+	EndGlobalSection
+EndGlobal
