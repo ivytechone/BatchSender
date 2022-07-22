@@ -1,0 +1,25 @@
+name: Build and Publish
+
+on:
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v3
+      - name: Restore dependencies
+        run: dotnet restore
+      - name: Build
+        run: dotnet build -c Release --no-restore
+      - name: Test
+        run: dotnet test
+      - name: Pack
+        run: dotnet pack -c Release
+      - name: List output
+        run: ls -lR
+      - name: Add Package Source
+        run: dotnet nuget add source -n github "https://nuget.pkg.github.com/ivytechone/index.json"
+      - name: Push
+        run: dotnet nuget push ./bin/Release/*.nupkg --api-key ${{ secrets.PACKAGE_TOKEN }} --source github
