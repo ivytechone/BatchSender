@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BatchSender", "BatchSender\BatchSender.csproj", "{DF394CFC-4E4C-442A-9279-A4ED1A1F9F45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BatchSender", "BatchSender\IvyTech.BatchSender.csproj", "{DF394CFC-4E4C-442A-9279-A4ED1A1F9F45}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BatchSenderTests", "BatchSenderTests\BatchSenderTests.csproj", "{33CD8FA7-B0B6-4CCC-9BA0-68D75DAACD41}"
 EndProject
