@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BatchSender\BatchSender.csproj" />
+    <ProjectReference Include="..\BatchSender\IvyTech.BatchSender.csproj" />
   </ItemGroup>
 
 </Project>
